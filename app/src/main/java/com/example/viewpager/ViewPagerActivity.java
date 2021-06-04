@@ -11,7 +11,7 @@ import com.example.activity.R;
  * Date:  2021/6/4 23:20
  * Desc:
  */
-public class MyViewPagerActivity extends AppCompatActivity {
+public class ViewPagerActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

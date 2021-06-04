@@ -1,33 +1,27 @@
 package com.example.activity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
+import android.util.Log;
 import androidx.appcompat.app.AppCompatActivity;
-import com.example.jetpack.LifeCycleActivity;
-import com.example.viewpager.MyViewPagerActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import com.example.MyLog;
+import com.example.recycleView.MyRecycleAdapter;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        RecyclerView recyclerView = findViewById(R.id.recycle_view);
+        recyclerView.setAdapter(new MyRecycleAdapter());
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        MyLog.e(this);
     }
 
     @Override
     protected void onResume() {
         super.onResume();
     }
-
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.lifecycle_btn:
-                startActivity(new Intent(this, LifeCycleActivity.class));
-            case R.id.view_pager_btn:
-                startActivity(new Intent(this, MyViewPagerActivity.class));
-        }
-
-    }
-
 }

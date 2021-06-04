@@ -17,6 +17,6 @@
       </intent-filter>
     </activity>
     <activity android:name="com.example.jetpack.LifeCycleActivity" />
-    <activity android:name="com.example.viewpager.MyViewPagerActivity" />
+    <activity android:name="com.example.viewpager.ViewPagerActivity" />
   </application>
 </manifest>
