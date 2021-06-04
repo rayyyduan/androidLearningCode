@@ -2,18 +2,14 @@ package com.example.recycleView;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.jetpack.LifeCycleActivity;
 import com.example.viewpager.ViewPagerActivity;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 /**
  * Author: ruiduan
