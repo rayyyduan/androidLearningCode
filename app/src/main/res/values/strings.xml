@@ -1,0 +1,6 @@
+<resources>
+  <string name="app_name">JavaAndroidTest</string>
+  <string name="lifecycle">lifecycle</string>
+  <string name="view_pager_btn">view_pager_btn</string>
+  <string name="lifecycle_btn">lifecycle_btn</string>
+</resources>

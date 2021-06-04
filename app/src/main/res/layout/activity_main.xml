@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="match_parent"
+  android:layout_width="match_parent">
+  <Button
+    android:id="@+id/lifecycle_btn"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:text="@string/lifecycle_btn"
+    android:onClick="onClick"
+    />
+  <Button
+    android:id="@+id/view_pager_btn"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:text="@string/view_pager_btn"
+    android:onClick="onClick"
+
+    />
+
+</LinearLayout>
