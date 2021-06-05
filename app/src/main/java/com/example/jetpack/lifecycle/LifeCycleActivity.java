@@ -1,4 +1,4 @@
-package com.example.jetpack;
+package com.example.jetpack.lifecycle;
 
 import android.os.Bundle;
 import android.util.Log;

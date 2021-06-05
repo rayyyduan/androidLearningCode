@@ -16,7 +16,9 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:name="com.example.jetpack.LifeCycleActivity" />
+    <activity android:name="com.example.jetpack.lifecycle.LifeCycleActivity" />
     <activity android:name="com.example.viewpager.ViewPagerActivity" />
+    <activity android:name="com.example.jetpack.viewmodel.ViewModelActivity" />
+    <activity android:name="com.example.jetpack.lifedata.LiveDataActivity" />
   </application>
 </manifest>

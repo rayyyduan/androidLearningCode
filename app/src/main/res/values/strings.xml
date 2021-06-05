@@ -3,4 +3,6 @@
   <string name="lifecycle">lifecycle</string>
   <string name="view_pager_btn">view_pager_btn</string>
   <string name="lifecycle_btn">lifecycle_btn</string>
+  <string name="btn">按钮</string>
+  <string name="test_text">测试文本</string>
 </resources>
