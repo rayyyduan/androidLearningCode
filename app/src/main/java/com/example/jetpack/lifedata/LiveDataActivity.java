@@ -2,7 +2,6 @@ package com.example.jetpack.lifedata;
 
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.MutableLiveData;
 import com.example.activity.R;

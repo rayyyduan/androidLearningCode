@@ -20,5 +20,6 @@
     <activity android:name="com.example.viewpager.ViewPagerActivity" />
     <activity android:name="com.example.jetpack.viewmodel.ViewModelActivity" />
     <activity android:name="com.example.jetpack.lifedata.LiveDataActivity" />
+    <activity android:name="com.example.jetpack.databinding.DataBindingActivity" />
   </application>
 </manifest>

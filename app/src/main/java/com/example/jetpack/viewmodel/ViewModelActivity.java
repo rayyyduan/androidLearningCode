@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
@@ -34,7 +35,7 @@ public class ViewModelActivity extends AppCompatActivity {
     public static class MyViewModel extends ViewModel {
         private final MutableLiveData<String> liveData = new MutableLiveData<>();
 
-        public MutableLiveData<String> getLiveData() {
+        public LiveData<String> getLiveData() {
             return liveData;
         }
 
