@@ -1,4 +1,4 @@
-package com.example.jetpack.lifedata;
+package com.example.jetpack.livedata;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -49,7 +49,7 @@ public class LiveDataActivity extends AppCompatActivity {
     }
 
     protected void log(String str) {
-        Log.e("Activity onChanged:", str);
+        Log.e("Activity setValue:", str);
         mLiveData.setValue(str);
     }
 }

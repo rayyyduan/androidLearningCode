@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.AnimationActivity;
 import com.example.jetpack.lifecycle.LifeCycleActivity;
-import com.example.jetpack.lifedata.LiveDataActivity;
+import com.example.jetpack.livedata.LiveDataActivity;
 import com.example.jetpack.viewmodel.ViewModelActivity;
 import com.example.viewpager.ViewPagerActivity;
 import java.util.ArrayList;
