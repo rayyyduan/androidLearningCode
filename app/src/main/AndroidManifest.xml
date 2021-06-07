@@ -21,5 +21,6 @@
     <activity android:name="com.example.jetpack.viewmodel.ViewModelActivity" />
     <activity android:name="com.example.jetpack.lifedata.LiveDataActivity" />
     <activity android:name="com.example.jetpack.databinding.DataBindingActivity" />
+    <activity android:name="com.example.AnimationActivity" />
   </application>
 </manifest>
