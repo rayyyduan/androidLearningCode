@@ -19,8 +19,11 @@
     <activity android:name="com.example.jetpack.lifecycle.LifeCycleActivity" />
     <activity android:name="com.example.viewpager.ViewPagerActivity" />
     <activity android:name="com.example.jetpack.viewmodel.ViewModelActivity" />
-    <activity android:name="com.example.jetpack.lifedata.LiveDataActivity" />
+    <activity android:name="com.example.jetpack.livedata.LiveDataActivity" />
     <activity android:name="com.example.jetpack.databinding.DataBindingActivity" />
     <activity android:name="com.example.AnimationActivity" />
+    <activity android:name="com.example.service.MessengerActivity" />
+
+    <service android:name="com.example.service.MessengerService" android:process=":remote" />
   </application>
 </manifest>

@@ -9,8 +9,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.AnimationActivity;
 import com.example.jetpack.lifecycle.LifeCycleActivity;
-import com.example.jetpack.lifedata.LiveDataActivity;
+import com.example.jetpack.livedata.LiveDataActivity;
 import com.example.jetpack.viewmodel.ViewModelActivity;
+import com.example.service.MessengerActivity;
 import com.example.viewpager.ViewPagerActivity;
 import java.util.ArrayList;
 
@@ -30,6 +31,7 @@ public class MyRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
         arrayList.add(LiveDataActivity.class);
         arrayList.add(ViewModelActivity.class);
         arrayList.add(AnimationActivity.class);
+        arrayList.add(MessengerActivity.class);
     }
 
 
