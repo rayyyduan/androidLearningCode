@@ -8,6 +8,8 @@ import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.AnimationActivity;
+import com.example.C;
+import com.example.ipc.AnotherProcessActivity;
 import com.example.jetpack.lifecycle.LifeCycleActivity;
 import com.example.jetpack.livedata.LiveDataActivity;
 import com.example.jetpack.viewmodel.ViewModelActivity;
@@ -32,6 +34,7 @@ public class MyRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
         arrayList.add(ViewModelActivity.class);
         arrayList.add(AnimationActivity.class);
         arrayList.add(MessengerActivity.class);
+        arrayList.add(AnotherProcessActivity.class);
     }
 
 
@@ -72,6 +75,7 @@ public class MyRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
             this.button.setText(clazz.getSimpleName());
             this.button.setOnClickListener((v -> {
                 Intent intent = new Intent(button.getContext(), clazz);
+                intent.putExtra(C.DATA, "this is a string");
                 button.getContext().startActivity(intent);
             }));
         }

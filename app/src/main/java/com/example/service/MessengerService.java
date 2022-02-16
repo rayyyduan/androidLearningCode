@@ -10,6 +10,7 @@ import android.os.Message;
 import android.os.Messenger;
 import android.os.RemoteException;
 import android.util.Log;
+import com.example.C;
 
 public class MessengerService extends Service {
     public static final String TAG = MessengerService.class.getSimpleName();
@@ -43,7 +44,7 @@ public class MessengerService extends Service {
      */
     @Override
     public IBinder onBind(Intent intent) {
-        Log.i(TAG, "intent:" + intent.hashCode() + " data:" + intent.getStringExtra("data"));
+        Log.i(TAG, "intent:" + intent.hashCode() + " data:" + intent.getStringExtra(C.DATA));
 
         //在一个进程中创建指向handler的Messenger
         return new Messenger(mHandler).getBinder();

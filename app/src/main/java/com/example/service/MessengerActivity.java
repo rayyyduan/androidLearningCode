@@ -1,10 +1,5 @@
 package com.example.service;
 
-/**
- * Author: ruiduan
- * Date:  2022/2/15 22:16
- * Desc:
- */
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -18,6 +13,7 @@ import android.os.RemoteException;
 import android.os.Bundle;
 import android.util.Log;
 import androidx.appcompat.app.AppCompatActivity;
+import com.example.C;
 import com.example.activity.R;
 
 public class MessengerActivity extends AppCompatActivity {
@@ -39,7 +35,7 @@ public class MessengerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.empty_layout);
         Intent intent = new Intent(MessengerActivity.this,MessengerService.class);
-        intent.putExtra("data", "Intent can trans data");
+        intent.putExtra(C.DATA, "Intent can trans data");
         Log.i(TAG, "intent" + intent.hashCode());
         bindService(intent, mServiceConnection, Context.BIND_AUTO_CREATE);
     }

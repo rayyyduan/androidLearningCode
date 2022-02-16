@@ -23,6 +23,7 @@
     <activity android:name="com.example.jetpack.databinding.DataBindingActivity" />
     <activity android:name="com.example.AnimationActivity" />
     <activity android:name="com.example.service.MessengerActivity" />
+    <activity android:name="com.example.ipc.AnotherProcessActivity" android:process=":remote"/>
 
     <service android:name="com.example.service.MessengerService" android:process=":remote" />
   </application>

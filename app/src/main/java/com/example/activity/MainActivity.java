@@ -19,8 +19,5 @@ public class MainActivity extends AppCompatActivity{
         MyLog.e(this);
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-    }
+
 }
