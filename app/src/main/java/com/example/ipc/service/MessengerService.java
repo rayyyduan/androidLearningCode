@@ -1,4 +1,4 @@
-package com.example.service;
+package com.example.ipc.service;
 
 import android.app.Service;
 import android.content.Intent;
@@ -12,6 +12,9 @@ import android.os.RemoteException;
 import android.util.Log;
 import com.example.C;
 
+/**
+ * Messenger只能进行数据通信，不能进行方法调用。
+ */
 public class MessengerService extends Service {
     public static final String TAG = MessengerService.class.getSimpleName();
     public static final int MSG_FROM_CLIENT = 1000;

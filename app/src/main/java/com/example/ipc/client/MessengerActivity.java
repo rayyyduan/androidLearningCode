@@ -1,4 +1,4 @@
-package com.example.service;
+package com.example.ipc.client;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -15,6 +15,7 @@ import android.util.Log;
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.C;
 import com.example.activity.R;
+import com.example.ipc.service.MessengerService;
 
 public class MessengerActivity extends AppCompatActivity {
     private static final String TAG = MessengerActivity.class.getSimpleName();

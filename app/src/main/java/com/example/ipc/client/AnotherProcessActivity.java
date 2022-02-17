@@ -1,8 +1,7 @@
-package com.example.ipc;
+package com.example.ipc.client;
 
 import static com.example.C.DATA;
 
-import android.app.Application;
 import android.os.Bundle;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;

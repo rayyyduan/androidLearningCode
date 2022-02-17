@@ -9,11 +9,12 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.AnimationActivity;
 import com.example.C;
-import com.example.ipc.AnotherProcessActivity;
+import com.example.ipc.client.AIDLActivity;
+import com.example.ipc.client.AnotherProcessActivity;
 import com.example.jetpack.lifecycle.LifeCycleActivity;
 import com.example.jetpack.livedata.LiveDataActivity;
 import com.example.jetpack.viewmodel.ViewModelActivity;
-import com.example.service.MessengerActivity;
+import com.example.ipc.client.MessengerActivity;
 import com.example.viewpager.ViewPagerActivity;
 import java.util.ArrayList;
 
@@ -35,6 +36,7 @@ public class MyRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
         arrayList.add(AnimationActivity.class);
         arrayList.add(MessengerActivity.class);
         arrayList.add(AnotherProcessActivity.class);
+        arrayList.add(AIDLActivity.class);
     }
 
 

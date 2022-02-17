@@ -22,9 +22,11 @@
     <activity android:name="com.example.jetpack.livedata.LiveDataActivity" />
     <activity android:name="com.example.jetpack.databinding.DataBindingActivity" />
     <activity android:name="com.example.AnimationActivity" />
-    <activity android:name="com.example.service.MessengerActivity" />
-    <activity android:name="com.example.ipc.AnotherProcessActivity" android:process=":remote"/>
+    <activity android:name="com.example.ipc.client.MessengerActivity" />
+    <activity android:name="com.example.ipc.client.AnotherProcessActivity" android:process=":remote"/>
+    <activity android:name="com.example.ipc.client.AIDLActivity" />
 
-    <service android:name="com.example.service.MessengerService" android:process=":remote" />
+    <service android:name="com.example.ipc.service.MessengerService" android:process=":remote" />
+    <service android:name="com.example.ipc.service.AIDLService" android:process=":remote" />
   </application>
 </manifest>
